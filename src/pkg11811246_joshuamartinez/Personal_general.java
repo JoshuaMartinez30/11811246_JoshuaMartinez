@@ -54,7 +54,7 @@ public class Personal_general extends Persona{
 
     @Override
     public String toString() {
-        return "ocupacion=" + ocupacion + super.toString();
+        return super.toString();
     }
     
     
