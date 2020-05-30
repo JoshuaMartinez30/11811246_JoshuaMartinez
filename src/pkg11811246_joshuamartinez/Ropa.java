@@ -5,7 +5,7 @@ import java.awt.Color;
 public class Ropa extends Objetos{
     String talla, tela, pais;
 
-    public Ropa(String talla, String tela, String pais, Color color, String descripcion, String marca, String tamaño, String calidad, Persona persona) {
+    public Ropa(String talla, String tela, String pais, Color color, String descripcion, String marca, String tamaño, String calidad, String persona) {
         super(color, descripcion, marca, tamaño, calidad, persona);
         this.talla = talla;
         this.tela = tela;

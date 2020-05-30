@@ -10,7 +10,7 @@ public class Objetos_hogar extends Objetos{
         super();
     }
 
-    public Objetos_hogar(String descripcion_h, String instrucciones, int garantia, Color color, String descripcion, String marca, String tamaño, String calidad, Persona persona) {
+    public Objetos_hogar(String descripcion_h, String instrucciones, int garantia, Color color, String descripcion, String marca, String tamaño, String calidad, String persona) {
         super(color, descripcion, marca, tamaño, calidad, persona);
         this.descripcion_h = descripcion_h;
         this.instrucciones = instrucciones;
