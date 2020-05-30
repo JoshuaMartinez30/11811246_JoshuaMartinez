@@ -456,7 +456,7 @@ public class Inicio extends javax.swing.JFrame {
         ta_Instrucciones.setRows(5);
         jScrollPane5.setViewportView(ta_Instrucciones);
 
-        jLabel32.setText("Garantia");
+        jLabel32.setText("Años de Garantia");
 
         btnGuardarO.setText("Guardar");
         btnGuardarO.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -479,17 +479,6 @@ public class Inicio extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jp_CrearObjetoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jp_CrearObjetoLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(btnColor, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel9)
-                        .addGap(18, 18, 18)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(48, 48, 48)
-                        .addComponent(jLabel17)
-                        .addGap(10, 10, 10)
-                        .addComponent(tf_Marca))
-                    .addGroup(jp_CrearObjetoLayout.createSequentialGroup()
                         .addComponent(rb_pequeño)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(rb_mediano)
@@ -502,13 +491,26 @@ public class Inicio extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(jLabel20)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jp_CrearObjetoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jp_CrearObjetoLayout.createSequentialGroup()
-                                .addComponent(jLabel34)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(tf_calidad))
-                            .addComponent(cbotipo, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addGap(22, 22, 22))
+                        .addComponent(cbotipo, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(22, 22, 22))
+                    .addGroup(jp_CrearObjetoLayout.createSequentialGroup()
+                        .addGap(462, 462, 462)
+                        .addComponent(jLabel34)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(tf_calidad)
+                        .addContainerGap())
+                    .addGroup(jp_CrearObjetoLayout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(btnColor, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel9)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(29, 29, 29)
+                        .addComponent(jLabel17)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(tf_Marca)
+                        .addContainerGap())))
             .addComponent(jSeparator3, javax.swing.GroupLayout.Alignment.TRAILING)
             .addComponent(jSeparator4)
             .addGroup(jp_CrearObjetoLayout.createSequentialGroup()
@@ -547,7 +549,7 @@ public class Inicio extends javax.swing.JFrame {
                         .addComponent(jLabel27)
                         .addGap(18, 18, 18)
                         .addComponent(tf_tela, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 104, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel28)
                         .addGap(29, 29, 29)
                         .addComponent(tf_pais, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -697,7 +699,7 @@ public class Inicio extends javax.swing.JFrame {
             .addGroup(jp_ListarPersonasLayout.createSequentialGroup()
                 .addGap(27, 27, 27)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 644, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
         jp_ListarPersonasLayout.setVerticalGroup(
             jp_ListarPersonasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -738,7 +740,7 @@ public class Inicio extends javax.swing.JFrame {
                     .addGroup(jp_EliminarPersonaLayout.createSequentialGroup()
                         .addGap(234, 234, 234)
                         .addComponent(btnEliminarP, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(163, Short.MAX_VALUE))
+                .addContainerGap(182, Short.MAX_VALUE))
         );
         jp_EliminarPersonaLayout.setVerticalGroup(
             jp_EliminarPersonaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -769,7 +771,7 @@ public class Inicio extends javax.swing.JFrame {
             .addGroup(jp_listarObjetoLayout.createSequentialGroup()
                 .addGap(76, 76, 76)
                 .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 520, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(105, Short.MAX_VALUE))
+                .addContainerGap(124, Short.MAX_VALUE))
         );
         jp_listarObjetoLayout.setVerticalGroup(
             jp_listarObjetoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -810,7 +812,7 @@ public class Inicio extends javax.swing.JFrame {
                     .addGroup(jp_EliminarObjetoLayout.createSequentialGroup()
                         .addGap(221, 221, 221)
                         .addComponent(btnEliminarO, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(135, Short.MAX_VALUE))
+                .addContainerGap(154, Short.MAX_VALUE))
         );
         jp_EliminarObjetoLayout.setVerticalGroup(
             jp_EliminarObjetoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -891,6 +893,7 @@ public class Inicio extends javax.swing.JFrame {
                 mp.addElement(p);
             }
             tf_ID.setText("");
+            tf_Nombre.setText("");
             tf_Edad1.setText("");
             rb_M.setSelected(true);
             rb_F.setSelected(false);
